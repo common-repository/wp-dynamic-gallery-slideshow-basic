@@ -1,0 +1,11 @@
+/* CSS Document */
+.enableFullVersion{
+font-weight:bold;
+color:red;
+margin-left: 20px;
+}
+.example{
+color:green;
+font-style:italic;	
+margin-left: 30px;
+}

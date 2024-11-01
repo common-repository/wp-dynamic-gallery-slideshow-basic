@@ -1,0 +1,71 @@
+/* background and border */
+.flexslider {
+	background-color: #fff;
+	color: #000;
+	border:	0px solid #eee;
+	
+}
+
+/* captions */
+.flexslider .photocontent {
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+	width: 100%;
+	bottom: 0px;
+	position:absolute;
+	padding-left: 10px;
+}
+
+/* slides */
+.flexslider .slides{
+margin-left: 0px !important;
+}
+.flexslider .slides li{
+
+}
+.flexslider .slides img {
+
+}
+/* navigation */
+.flexslider .flex-pauseplay{
+position:absolute;
+bottom: 5px;	
+right: 50px;
+}
+.flexslider  .flex-pauseplay a{
+height: 35px;
+color: #fff;	
+}
+#carousel {
+height: 110px;	
+}
+.flexslider .flex-control-nav{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.flexslider .flex-control-nav, #carousel .slides{
+border-top: 1px solid #ccc;
+padding-top: 5px;
+padding-left: 5px;	
+}
+#carousel .slides{
+margin-left: 13px;	
+}
+.flexslider .flex-control-thumbs img, .flexslider .flex-control-thumbs li{
+max-width: 175px !important;
+max-height: 100px;
+margin-right: 5px;
+}
+
+#carousel .slides img, #carousel li{
+max-width: 165px !important;
+max-height: 90px;
+margin-left: -5px;
+}
+.flex-direction-nav a {
+	height: 45PX;
+}
+.flexslider .flex-nav-prev, .flexslider .flex-nav-next {
+	list-style: none !important;
+}
